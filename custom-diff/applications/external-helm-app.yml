@@ -27,3 +27,7 @@ spec:
       jsonPointers:
        - /data
        - /my-password
+    - group: apps
+      kind: Deployment
+      jqPathExpressions:
+       - .metadata.annotations.creation
