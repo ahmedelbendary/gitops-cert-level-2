@@ -25,7 +25,7 @@ spec:
   - group: apps
     kind: Deployment
     name: simple-deployment
-    namespace: default
+    namespace: example01
     jsonPointers:
     - /spec/replicas
    
